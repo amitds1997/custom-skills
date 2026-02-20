@@ -47,6 +47,7 @@ This acts as a lightweight pre-push / pre-PR quality gate.
 - Flag overly complex logic
 - Ensure proper separation of concerns
 - Detect magic numbers and hardcoded values
+- Hard-coded environment variables or secrets
 
 ### 3. Error Handling & Edge Cases
 
