@@ -1,0 +1,20 @@
+{
+  "name": "custom-skills",
+  "owner": {
+    "name": "Amit Singh",
+    "email": "amitds1997@users.noreply.github.com"
+  },
+  "metadata": {
+    "description": "Example skills",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "development-skills",
+      "description": "Collection of skills related to development work",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/code-review", "./skills/doc-update"]
+    }
+  ]
+}
